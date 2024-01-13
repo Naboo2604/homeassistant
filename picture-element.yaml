@@ -1,0 +1,42 @@
+type: picture-elements
+elements:
+  - type: state-label
+    entity: sensor.bwt_perla_hardness_in
+    suffix: °dH
+    style:
+      top: 7%
+      left: 20%
+      font-size: 200%
+  - type: state-label
+    entity: sensor.bwt_perla_hardness_out
+    suffix: °dH
+    style:
+      top: 7%
+      left: 80%
+      font-size: 200%
+  - type: state-label
+    entity: sensor.bwt_perla_last_regeneration_1_date
+    style:
+      top: 67%
+      left: 21%
+      font-size: 110%
+  - type: state-label
+    entity: sensor.bwt_perla_last_regeneration_2_date
+    style:
+      top: 67%
+      left: 78%
+      font-size: 110%
+  - type: state-label
+    entity: sensor.bwt_perla_counter_regeneration_1
+    style:
+      top: 87%
+      left: 9%
+      font-size: 130%
+  - type: state-label
+    entity: sensor.bwt_perla_counter_regeneration_2
+    style:
+      top: 87%
+      left: 90%
+      font-size: 130%
+image: >-
+  https://<paste-link-to-your-picture-here>/BWT_Dashboard_bg.png
