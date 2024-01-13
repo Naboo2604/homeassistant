@@ -15,13 +15,13 @@ elements:
       left: 80%
       font-size: 200%
   - type: state-label
-    entity: sensor.bwt_perla_last_regeneration_1_date
+    entity: sensor.bwt_perla_last_regeneration_1
     style:
       top: 67%
       left: 21%
       font-size: 110%
   - type: state-label
-    entity: sensor.bwt_perla_last_regeneration_2_date
+    entity: sensor.bwt_perla_last_regeneration_2
     style:
       top: 67%
       left: 78%
