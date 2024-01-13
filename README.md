@@ -7,9 +7,11 @@ Inspired by a screenshot from @deepandsteven in the HA community [Link](https://
 - HACS BWT Integration from @dkarv [Link](https://github.com/dkarv/hacs-bwt-perla)
 - Custom card from @amoebelabs: [Link](https://github.com/AmoebeLabs/flex-horseshoe-card)
 ## Installation
-Follow the instruction from the prerequisite links and install the integration from @dkarv and from @amoebelabs.
+- Follow the instruction from the prerequisite links and install the integration from @dkarv and the custom card from @amoebelabs.
+- Copy the picture file (background) from the repo on a public available web-server (if you want to use HA GUI from everywhere) or on a local path (if you want to use it only internally).
+- Edit the picture-element.yaml and paste the link to your background png file in the last line.
+- Create a new dashboard in HA and add a flex-horseshoe-card, paste the content of flex-horseshoe.yaml file
+- Add a second picture-element-card and paste the content of picture-element.yaml file
 
-This dashboard includes two cards - first one is the flex-horseshoe-card and the second the standard picture-element card.
-In HA create a new dashboard and add the flex-horeseshoe-card - paste the content of the bwt-flex-card.yaml file and create a second picture-element card and paste the content of picture-element.yaml from the repo.
 
 Thanks to @dkarv and @amoebelabs for their great work!
