@@ -14,10 +14,10 @@ entities:
     unit: L/Day
     name: Flow
     icon: mdi:faucet
-  - entity: sensor.bwt_perla_customer_service_date
+  - entity: sensor.bwt_perla_customer_service
     name: 'Last Service Customer:'
     icon: mdi:calendar
-  - entity: sensor.bwt_perla_technician_service_date
+  - entity: sensor.bwt_perla_technician_service
     name: 'Last Service Technican:'
     icon: mdi:calendar
 show:
